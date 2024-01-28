@@ -1,6 +1,6 @@
 # Example CTF Submission
 
-This is one of the vulnerable contracts of RACE-26. The vulnerability is that the `@nonreentrant("withdraw")` locks are not synchronized due to compiler bug in `vyper 0.3.0`. This allows an attacker to drain the vault. Thus, to compile the contract, we need to use `vyper 0.3.0`, so if we have `python3.9` intalled, we must initialize an appropriate virtual environment and install the necessary dependencies:
+This is one of the vulnerable contracts of RACE-26. The vulnerability is that the `@nonreentrant("withdraw")` locks are not synchronized due to compiler bug in `vyper 0.3.0`. This allows an attacker to drain the vault through [cross-contract reentrancy](https://inspexco.medium.com/cross-contract-reentrancy-attack-402d27a02a15). Thus, to compile the contract, we need to use `vyper 0.3.0`, so if we have `python3.9` intalled, we must initialize an appropriate virtual environment and install the necessary dependencies:
 
 ```bash
 python3.9 -m venv example-python-env
