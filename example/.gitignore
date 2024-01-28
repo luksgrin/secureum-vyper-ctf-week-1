@@ -12,3 +12,10 @@ docs/
 
 # Dotenv file
 .env
+
+# Python virtual environment
+example-python-env/bin/
+example-python-env/lib/
+example-python-env/lib64
+example-python-env/pyvenv.cfg
+example-python-env/vyper_git_version.txt
