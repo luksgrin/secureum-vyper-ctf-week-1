@@ -1,0 +1,1 @@
+cast send --rpc-url $RPC_URL --private-key $PRIVATE_KEY --create 

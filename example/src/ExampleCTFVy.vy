@@ -6,9 +6,9 @@ This contract implements a simple vault where users can deposit and withdraw
 ether.
 """
 
-import interfaces.IVyperSecureumCTF as IVyperSecureumCTF
+import interfaces.IExampleCTFVy as IExampleCTFVy
 
-implements: IVyperSecureumCTF
+implements: IExampleCTFVy
 
 userBalances: public(HashMap[address, uint256])
 
