@@ -5,7 +5,7 @@ This is one of the vulnerable contracts of RACE-26. The vulnerability is that th
 ```bash
 python3.9 -m venv example-python-env
 source example-python-env/bin/activate
-python3.9 -m pip install -r requirements.txt
+python3.9 -m pip install -r ./example-python-env/requirements.txt
 ```
 
 ## Structure
